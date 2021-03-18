@@ -1,5 +1,5 @@
 {
-  "name": "nightwatch",
+  "name": "peopleDoc",
   "description": "Easy to use Node.js based End-to-End testing solution for browser based apps and websites, using the W3C WebDriver API.",
   "version": "1.5.1",
   "author": {
@@ -37,13 +37,16 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "chromedriver": "^89.0.0",
     "coveralls": "^3.0.11",
     "eslint": "^6.8.0",
+    "geckodriver": "^1.22.2",
     "js-yaml": "^3.13.1",
     "lodash": ">=4.17.19",
     "mocha": "^6.2.3",
     "mock-spawn": "^0.2.1",
     "mockery": "~2.1.0",
+    "nightwatch": "^1.5.1",
     "nock": "^10.0.6",
     "nyc": "^14.1.1",
     "selenium-webdriver": "^4.0.0-alpha.7",
